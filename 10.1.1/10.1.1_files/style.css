@@ -1,0 +1,40 @@
+h6.dropdown-header {
+	padding: .25rem .5rem;
+	color: #203368;
+	background-color: #f5f5f5;
+}
+
+.gloss-modal-title {
+	color: #fff;
+	font-weight: 400;
+}
+
+.gloss-modal-header {
+	background-color: #0F6C43;
+}
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+	.modal-dialog {
+		height: 95%;
+	}
+	.modal-content {
+		height: 100%;
+	}
+}
+
+.searchResultCell em{
+	background-color: #FDFD96;
+	font-size: 600;
+}
+
+.notification-badge {
+	position: absolute;
+	transform: translate(50%);
+}
+
+a.nav-link.pr-0.btn-group {
+	overflow: inherit;
+	height: 100%;
+	display: flex;
+}
