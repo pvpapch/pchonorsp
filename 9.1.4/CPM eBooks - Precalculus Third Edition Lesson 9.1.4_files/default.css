@@ -1,0 +1,840 @@
+/* ----------------------------- STYLESHEET DAISY 2.02 FULLTEXT ---------------------- */
+
+
+
+
+/* --- DIV FRONTMATTER --- */
+*.docauthor {font-size: 140%; display: block; font-family: arial, verdana, sans-serif; font-weight: normal; margin-top: 2em;}
+
+span.subTitle {font-size: 50%; display: block; margin-top: 1em;}
+
+span.author {font-size: 140%; display: block; font-family: arial, verdana, sans-serif; font-weight: normal; margin-top: 2em;}
+
+
+
+/* --- GLOSSARY ITEMS --- */
+
+span.glossary-link {font-weight: bold; color: blue; cursor: pointer;}
+
+
+
+
+/* --- HEADINGS --- */
+h1.title {color: #000000; font-family: arial, verdana, sans-serif; font-size : 250%; font-style: normal; font-weight: bold; margin-top: 5em; margin-bottom: 2em;}
+h1 {color: #000000; font-size : 175%; font-weight: bold; margin-top: 3em; margin-bottom: 1em;}
+h2 {color: #000000; font-size : 150%; font-weight: normal; margin-top: 2.5em; margin-bottom: 0.5em;}
+h3 {color: #000000; font-size : 135%; font-weight: bold; margin-top: 2em; margin-bottom: 0.5em;}
+h4 {color: #000000; font-size : 115%; font-weight: bold; margin-top: 1em; margin-bottom: 0em; text-align: center;}
+h5 {color: #000000; font-size : 105%; font-weight: bold; margin-top: 1em; margin-bottom: 0em;}
+h6 {color: #000000; font-size : 100%; font-weight: bold; margin-top: 0.5em; }
+*.heading {color: #000000; font-size : 140%; font-weight: normal; margin-top: 2em; margin-bottom: 1em;}
+*.hd {color: #000000; font-size : 140%; font-weight: bold; margin-top: 2em; margin-bottom: 1em;}
+
+/* --- PAGE NUMBERS --- */
+span.page-normal, span.page-special, span.page-front {display: block; text-align: right; margin-right: 2em; font-weight: bold; border-top: solid 1px #E5E5E5; padding-top: 2em; margin-top: 3em;}
+li span.page-normal {list-style-type: none; }
+span.pagenum {text-align: right; padding-left: 5em;}
+
+
+/* --- BLOCKS --- */
+
+div.sidebar {margin-right:.5em; margin-top: .5em; margin-bottom: .5em; padding-left: .5em; padding-right: .5em; padding-top: 0.5em; padding-bottom: 0.5em;}
+div.sidebar2 {margin-right:.5em; margin-top: .5em; margin-bottom: .5em; padding-left: .5em; padding-right: .5em; padding-top: 0.5em; padding-bottom: 0.5em;}
+div.grouped {margin-right:1em; margin-top: 1em; margin-bottom: 1.5em; padding-left: 1em; padding-right: 1em; padding-top: 0.5em; padding-bottom: 0.5em;}
+
+div.optional-prodnote {border: 1px solid #A7A7A7; background-color: white; padding: 1em; margin-top:1em; margin-bottom:1em;}
+div.optional-prodnote a {color: gray;}
+
+div.prodnote {border: 1px solid #A7A7A7; background-color: white; padding: 1em; margin-top:1em; margin-bottom:1em;}
+div.prodnote a {color: gray;}
+
+
+div.notebody {font-size: 90%; border: 1px dotted gray; padding: 1em;}
+div.annotation {font-size: 90%; border: 1px dotted gray; padding: 1em;}
+
+code {
+  background-color: #a6a6a6;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* --- INLINES --- */
+span.noteref, a.noteref {vertical-align: super; font-size : 80%; border : 1px solid rgb(255,0,0); }
+span.annoref, a.annoref {border-bottom : 1px dashed gray; }
+acronym, abbr {border-bottom : 1px dashed rgb(255,0,0); }
+a.solutionlink {font-size: 80%; color: #002BB8;}
+#main a {text-decoration: underline;}
+
+/* --- LISTS --- */
+ul {list-style-type: disc; }
+/* ul > li, ol > li {margin-top: 1em; } */
+dt {margin-top: 1em;}
+
+ol.decimal { list-style-type: decimal; }
+ol.lower-alpha { list-style-type: lower-alpha; }
+ol.upper-alpha { list-style-type: upper-alpha; }
+ol.lower-roman { list-style-type: lower-roman; font-style: italic; }
+ol.lower-roman > li > p, ol.lower-roman > li > table { font-style: normal; }
+ol.upper-roman { list-style-type: upper-roman; }
+ul.plain, ol.plain { list-style-type: none; margin-left: 0; padding-left: 0; }
+ul.bullet ul.bullet {list-style-type: circle; }
+
+.list-columns-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.list-columns-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+}
+.list-columns-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+ol.lower-alpha img {vertical-align: top;}
+li.hd {list-style-type: none; font-weight: bold; margin-top: 0.5em;}
+ol ul.plain > li {margin-top: 2em; }
+ol.mc_closure_indent {list-style-type: decimal; margin-left: 0; padding-left: 20px}
+ul ol.decimal ol.lower-alpha > li {margin-left: 17px;}
+ul ol.decimal > li {margin-left: 17px;}
+
+
+/* --- TABLES --- */
+table.closure-answers {border-collapse: collapse;}
+table.closure-answers tr td {border-bottom: 3px solid black; vertical-align: top; max-width: 300px}
+table.closure-answers tr td img {vertical-align: top;}
+table {border: none; padding: 0em; font-size: 100%; margin-top: 1.5em; margin-bottom: 2em;}
+td, th {padding: 0.3em;}
+table.notes {border: none; padding: 0em; font-size: 80%; margin: 0em;}
+td.notes {border: none; padding: 0em}
+td.noborder {border: none;}
+table.noborder tr td {border: none;}
+td.noborder span.page-normal, td.noborder span.page-special, td.noborder span.page-front {display: block; text-align: center; margin: 1em 5em 1em 5em; font-weight: bold; padding: 0px; border: none;}
+/* Override font size from mdb-free.min.css */
+#contents table td {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/* --- IMAGES --- */
+div.imggroup {display: block; margin-top: 1em; margin-bottom: 1em;}
+img {border: none;}
+span.image-caption {display:block; margin-bottom: 1.5em; font-size: 90%; font-style: italic;}
+div.caption {font-style: italic; font-size: 90%; }
+
+
+/* --- QUOTES --- */
+blockquote {margin-left: 10em; font-size: 90%; font-style: italic; margin-bottom: 4em;}
+
+
+/* --- POEM --- */
+div.poem {font-family:bookman, times, serif; font-weight:700; margin-bottom: 2em; margin-top: 2em; margin-left: 4em; }
+div.linegroup {margin-bottom: 1em; margin-top: 1em; margin-left: 4em; }
+.linenum {margin-right: 2em;}
+div.author {font-weight: 700; font-style:italic;}
+.dateline {font-size: 80%; font-style: italic; }
+.byline {margin-top: 1em; margin-bottom: 1em; }
+div.title {font-weight: 700; font-size: 125%; margin-top: 2em; }
+div.poem div.hd {font-size: 100%; font-weight: bold; margin-top: 1em; margin-bottom: 0.3em;}
+div.poem span.page-normal {font-family:arial, verdana,sans-serif; display: block; text-align: right; margin-right: 2em; font-weight: bold; border-top: solid 1px #E5E5E5; padding-top: 2em; margin-top: 3em;}
+
+
+
+
+
+/* from php files */
+#bottom a {
+	color: #fff;
+	font-size: 80%;
+	font-weight: bold;
+	text-decoration: none;
+		display:block;
+		padding:5px;
+		width: 15em;
+		border:1px solid #000;
+		text-align:center;
+		font-family: verdana,arial,sans-serif;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		border-radius:5px;
+
+	}
+
+#bottom a {
+	background-color: #BAB37D;
+	}
+
+#bottom a:hover {
+		background-color: #9A935D;
+
+}
+
+#bottom td {
+	padding: .2em;
+}
+
+#bottom table {
+	margin: .2em;
+}
+
+
+
+
+
+
+#editor {
+	overflow: auto;
+	position: fixed;
+	left: 126px;
+	right: 160px;
+	top: 40px;
+	bottom: 81px;
+	background-color: #ffffff;
+	padding-left: 25px;
+}
+
+
+.nav-link.nav-item.contenthighlight {
+    background-color: #203368;
+    color: #fff;
+}
+
+
+div.sidebar {border: 9px double #203368; }
+.fldb {color: #203368;}
+.tableheader {background-color: #203368;}
+
+
+#contents {
+	height: 100%;
+	font-family: "Times New Roman", Times, serif !important;
+}
+
+#slide-out ul {
+	padding-bottom: 54px;
+}
+
+#slide-out ul ul {
+	padding-bottom: 0;
+}
+
+#tabs {
+	margin-bottom: 3em;
+}
+
+#navtabs {
+	min-height: 44px;
+}
+
+
+.buttonsize {font-size: 2.5em;}
+.fullscreenbutton {
+	right:.5em;
+	position:absolute;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	max-height: 100%;
+	border: 0;
+}
+
+.letterlist {
+	vertical-align: text-top;
+}
+
+table.grid {
+	border-collapse: collapse;
+
+}
+
+table.grid td{
+	border-width: 1px;
+	border-style: solid;
+
+}
+
+table.grid th{
+	border-width: 1px;
+	border-style: solid;
+	background-color: #DDDDDD;
+}
+
+td > p:last-child, th > p:last-child {
+  margin: 0;
+}
+
+#left a	{
+	color: #FFF;
+}
+
+.notes a {
+	background-color: #393;
+	border: 1px solid black;
+	padding: 4px;
+	Color: #000;
+}
+
+
+/* Actual menu CSS starts here--http://www.456bereastreet.com/archive/200705/accessible_expanding_and_collapsing_menu/*/
+	.menu,
+	.menu ul {
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	.menu {
+	width:100px;
+	color: #FFF;
+	margin-top: 5px;
+}
+	.menu li {
+		display:block;
+		border:1px solid black;
+		margin:0;
+		padding:0;
+		margin-bottom:1px;
+
+	}
+	.menu a {
+		display:block;
+		padding:5px;
+		text-decoration:none;
+	}
+
+	.menu a:hover,
+	.menu a:focus,
+	.menu a:active {text-decoration:none;}
+	.menu ul li a{
+	padding-left:15px;
+	}
+	/*.menu li ul {display:none;}
+	.visible {display:block;} */
+	.hidden {display:none;}
+	.menu a.currentpage {font-weight:bold;}
+
+
+/* top tabbed navigation--http://www.cssportal.com/horizontal-menus/unraveled.htm */
+ul#tabnav { /* general settings */
+	text-align: left; /* set to left, right or center */
+	margin: 1em 0 1em 0; /* set margins as desired */
+	font: bold 15px verdana, arial, sans-serif; /* set border COLOR as desired */
+	list-style-type: none;
+	padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul#tabnav li { /* do not change */
+display: inline;
+}
+
+ul#searchtop { /* general settings */
+	text-align: left; /* set to left, right or center */
+	margin: 1em 0 1em 0; /* set margins as desired */
+	font: bold 15px verdana, arial, sans-serif; /* set border COLOR as desired */
+	list-style-type: none;
+	padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul#searchtop li { /* do not change */
+display: inline;
+}
+
+
+
+body#tab1 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4, body#tab1b li.tab1b { /* settings for selected tab */
+border-bottom: 1px solid #fff; /* set border color to page background color */
+
+}
+
+
+
+body#tab1 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a, body#tab1b li.tab1b a { /* settings for selected tab link */
+background-color: #fff; /* set selected tab background color as desired */
+color: #000; /* set selected tab link color as desired */
+position: relative;
+top: 1px;
+padding-top: 4px; /* must change with respect to padding (X) above and below */
+}
+
+
+
+
+ul#tabnav li a { /* settings for all tab links */
+padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+border: 1px solid #4c4; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+background-color: #e7efbc; /* set unselected tab background color as desired */
+color: #666; /* set unselected tab link color as desired */
+margin-right: 0px; /* set additional spacing between tabs as desired */
+text-decoration: none;
+border-bottom: none;
+cursor: pointer;
+}
+
+ul#tabnav a:hover { /* settings for hover effect */
+background: #fff; /* set desired hover color */
+}
+
+ul#searchtop li { /* settings for all tab links */
+padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+border: 1px solid #4c4; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+background-color: #e7efbc; /* set unselected tab background color as desired */
+color: #666; /* set unselected tab link color as desired */
+margin-right: 0px; /* set additional spacing between tabs as desired */
+text-decoration: none;
+border-bottom: none;
+position:fixed;
+right:2em;
+top: -.5em;
+}
+
+ul#searchtop a:hover { /* settings for hover effect */
+background: #fff; /* set desired hover color */
+}
+
+
+ul#tabnav2 {
+	position:relative;
+	float:left;
+	padding:0;
+	margin:5px;
+	list-style-type:none;
+	line-height:1em;
+	font: bold 10px verdana, arial, sans-serif;
+	background-color: #e7efbc;
+}
+
+ul#tabnav2 LI {
+	list-style-type:none;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+ul#tabnav2 li A {
+	display:block;
+	color:#444;
+	text-decoration:none;
+	font-weight:bold;
+	background:#ddd;
+	margin:0em;
+	padding:0.25em .5em;
+	border:1px solid #000;
+
+}
+
+ul#tabnav2 li A:hover,
+ul#tabnav2 li A:active,
+ul#tabnav2 li A.here:link,
+ul#tabnav2 li A.here:visited {
+	background:#e7efbc;
+}
+
+ul#tabnav2 li A.here:link,
+ul#tabnav2 li A.here:visited {
+	position:relative;
+	z-index:102;
+	border-bottom: 0px;
+}
+
+.covers tr td {
+	padding-right: 30px;
+	padding-left: 30px;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+#indexpage {
+	padding-left: 30px;
+}
+
+#indexpage a:hover {
+	background-color: #fff;
+}
+
+#toolsmenu {
+	background-color: #1f3368;
+	width: 100%;
+	padding-left: 7px;
+}
+
+#toolsmenu a {
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 90%;
+	color: #fff;
+	margin-right: .4em;
+	text-decoration: none;
+}
+
+#toolsmenu a:hover {
+	background-color: #ccc;
+}
+
+.tools {
+	padding-left: 30px;
+
+}
+
+.tools h3, .tools h5 {
+	margin: .2em;
+}
+
+.head {
+background-color: #aaa;
+border: 1px solid black;
+}
+
+.tools input {
+	border: 1px solid #006;
+	font-size: 100%;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #ffc;
+}
+
+.student td {
+	border-bottom: 1px solid black;
+}
+
+
+
+a.button1 {
+	text-decoration: none;
+	font-size: 75%;
+	padding: 3px 7px;
+    display: inline;
+    border: 1px solid black;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow: 1px 1px #666;
+
+ background-color: #fff; color: #000; text-shadow: 1px 1px #fff;
+}
+
+a.button1:hover {
+    background-color: #eee;
+    }
+a.button1:active {
+    background-color: #ccc;
+    }
+
+/* my notes  */
+.tableheader td {
+	color: #FFFFFF;
+	}
+
+
+a.toolsmenuh {
+	cursor: default;
+}
+
+
+/* bottom nav */
+/* drop up */
+ul#bottomnav,ul#bottomnav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul#bottomnav {
+	height:2.8em;
+}
+
+
+ul#bottomnav li {
+	position: relative;
+	float: right;
+	width:12em;
+	color:#fff;
+	text-align:left;
+	list-style: none;
+	margin-left:1em;
+	margin-top:.5em;
+}
+ul#bottomnav li a {
+	text-decoration: none;
+}
+#bottomnav li ul {
+	position: absolute;
+	top:-6.5em;
+	width:12em;
+	background:rgba(255,255,255,1);
+	padding-right: .8em;
+}
+
+ul#bottomnav li li{height:1.5em;border:none;}
+ul#bottomnav li li a{
+	color:#fff;
+	padding:.3em;
+	display:block;
+}
+
+ul#bottomnav li ul li ul{
+	position: absolute;
+	left:-13em;
+	top:-2.5em;
+	width:12em;
+	background:rgba(255,255,255,1);
+	padding-right: .8em;
+}
+
+ul#bottomnav li ul li ul li a{
+	background-color:#9A935D;
+}
+
+ul#bottomnav li:hover li a,ul#bottomnav li.over li a{color:#fff;}
+
+
+ul#bottomnav2,ul#bottomnav2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul#bottomnav2 {
+	height:2.8em;
+}
+
+
+ul#bottomnav2 li {
+	position: relative;
+	float: right;
+	width:12em;
+	color:#fff;
+	text-align:left;
+	list-style: none;
+	margin-left:1em;
+	margin-top:0;
+/*	background */
+}
+ul#bottomnav2 li a {
+	text-decoration: none;
+}
+
+
+
+ul#bottomnav2 li:hover li a,ul#bottomnav2 li.over li a{color:#fff;}
+
+ul#bottomtoolsmenu {
+	background: #000;
+}
+
+#footerbuttons {
+	margin-bottom:5px;
+}
+
+#footerbuttons a{
+	display: inline;
+}
+
+
+.contract2 {
+background-color:lightyellow;
+padding-top:.3em;
+padding-bottom:.3em;
+}
+
+.contract1{
+background-color:#ffcccc;
+padding-top:.3em;
+padding-bottom:.3em;
+}
+
+/* Desmos Calculator stuff */
+#fullscreen-desmos-calculator-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	z-index: 20000;
+}
+#fullscreen-toolbar {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	right: 20px;
+	height: 30px;
+
+	background-color: black;
+	border-radius: 10px 10px 0 0;
+	color: white;
+	text-align: right;
+}
+#fullscreen-toolbar > i {
+	padding: 6px;
+	cursor: pointer;
+}
+#fullscreen-desmos-calculator {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	right: 20px;
+	bottom: 20px;
+}
+
+.desmos-calculator{
+	position: relative;
+	padding-bottom: 1em;
+}
+.desmos-calculator > a {
+	position: absolute;
+	display: block;
+	bottom: 4px;
+	right: 4px;
+	padding: 9px 5px;
+
+	border: 1px solid #ddd;
+	background: #f0f0f0;
+	box-shadow: 0 0 5px rgba(0,0,0,0.15);
+	color: #666;
+	border-radius: 6px;
+	text-shadow: 0 1px #fff;
+
+	text-align: center;
+	cursor: pointer;
+}
+.desmos-calculator > a:hover {
+	color: #000;
+}
+.desmos-calculator[data-type="ap"] {
+	border: 2px solid black;
+}
+
+.fullscreen-button {
+	min-width: 50px;
+	padding: 8px;
+	margin: 4px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.fullscreen-button:hover {
+	box-shadow: inset 0 0 8px black;
+}
+
+a.noeffects:hover , a.noeffects:active , a.noeffects:focus  { background-color: transparent; }
+
+/* --- HIGHLIGHT COLORS --- */
+.color-hint,
+.color-hint > .mjx-chtml { background-color: #e6e6fa }
+
+.color-step,
+.color-step > .mjx-chtml { background-color: #98fb98 }
+
+.color-answer,
+.color-answer > .mjx-chtml { background-color: #ffc0cb }
+
+.color-etool,
+.color-etool > .mjx-chtml { background-color: #f0e68c }
+
+.color-example,
+.color-example > .mjx-chtml { background-color: #dda0dd }
+
+.color-aside,
+.color-aside > .mjx-chtml { background-color: #e8e8e8 }
+td.color-aside { background-color: #a6a6a6 }
+
+.color-highlight,
+.color-highlight > .mjx-chtml { background-color: #ffff99 }
+
+/* --- COLUMN ALIGNMENT --- */
+.col-align-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.col-align-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col-align-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* --- REFERENCES --- */
+.contentContainerReference {position: relative; padding-top: 20px;}
+.contentContainerReference-title {position: absolute;  font-weight: bold;}
+.problem > .contentContainerReference-body,
+.problemAnswer > .contentContainerReference-body { padding: 0 0 0 80px;}
+.contentContainerReference-body::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* --- INDENTATION --- */
+.indent-1 { margin-left: 40px; }
+.indent-2 { margin-left: 80px; }
+.indent-3 { margin-left: 120px; }
+.indent-4 { margin-left: 160px; }
+.indent-5 { margin-left: 200px; }
+.indent-6 { margin-left: 240px; }
+.indent-7 { margin-left: 280px; }
+.indent-8 { margin-left: 320px; }
+.indent-9 { margin-left: 360px; }
+.indent-10 { margin-left: 400px; }
+
+/* --- INLINE BOX --- */
+.inline-box {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* --- TITLES --- */
+.lessonTitle {}
+.lessonTitle > h1 {border-bottom: 4px dotted #808080}
+.lessonTitle > p {font-size:1.5rem}
+.lessonTitle img {float:right}
+.lessonNumber {font-weight: bold; padding-right:24px;}
+
+/* --- ACCESSIBILITY --- */
+.screenReaderOnly {
+  position: absolute;
+  left: -100000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* --- HR --- */
+#contents hr {
+  border-top-color: black;
+}
+
+/* --- FIGURES --- */
+.square-cells td {
+  padding: 0;
+}
+.square-cells td > * {
+  display: none;
+}
+.square-cells td > :first-child {
+  display: block;
+  width: 100%;
+  height: 0;
+  margin-bottom: 100%;
+}
+
+p:empty {
+  white-space: pre;
+}
+p:empty:after {
+  content: " ";
+}
